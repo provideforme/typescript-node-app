@@ -28,5 +28,5 @@ export const updateTodo: RequestHandler<{ id: string }> = (req, res, next) => {
 
   TODOS[todoIndex] = new Todo(TODOS[todoIndex].id, updatedText);
 
-  res.json({ message: "Updated!", updatedText });
+  res.json({ message: "Updated!", updatedTodo: TODOS[todoIndex] });
 };
