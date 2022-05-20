@@ -1,1 +1,1 @@
-# typescript-node-app
+# FULL CRUD typescript nod.js app
